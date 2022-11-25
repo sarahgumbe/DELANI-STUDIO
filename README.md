@@ -10,7 +10,7 @@ Open Terminal {Ctrl+Alt+T}
 
 open git hub account :https://github.com/sarahgumbe
 
-git clone project 
+git clone project from git@github.com:sarahgumbe/DELANI-STUDIO.git
 
 cd Delani-Studio
 
