@@ -7,7 +7,9 @@ This project is a web application for Delani studio that shows details about the
 ## Setup/Installation Requirements
 Open Terminal {Ctrl+Alt+T}
 
-git clone 
+open git hub account :https://github.com/sarahgumbe
+
+git clone project 
 
 cd Delani-Studio
 
@@ -21,6 +23,7 @@ HTML5,
 CSS,
 Bootstrap,
 jQuery,
+js
 
 Behaviour	Input:	Enter your name	Sarah Gumbe	
 
