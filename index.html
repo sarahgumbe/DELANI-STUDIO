@@ -10,8 +10,8 @@
 </head>
 <body>
     <div class="container">
-        <div class="row" id="introduction"><br><br><br>
-        <img src="assets/logo/logo.png" alt="logo" id="logo"/><br>
+        <div class="row" id="introduction">
+            <img src="assets/logo/logo.png" alt="logo" id="logo"/>
         <h1>WELCOME</h1>
         <h1>DELANI STUDIO</h1>
         <h4>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h4>
@@ -73,41 +73,120 @@
         <div class="portfolio">
             <h2 style="text-align: center;">PORTFOLIO</h2>
             <div class="row" id="portfolio">
-
-            <div class="col-md-3" id="work1">
-                <img src="assets\portfolio\work4.jpg" alt="work1"/>
-            <p id="overlay1" class="text">Black Studio</p>
-        
-        </div>
-        <div class="col-md-3" id="work2">
-            <img src="assets\portfolio\work3.jpg" alt="work2" id="work2"/>
-            <p id="overlay2" class="text">Ontario Security</p>
-        </div>
-        <div class="col-md-3" id="work3">
+                <div class="col-md-3 portolio_image" id="work1">
+                    <img src="assets\portfolio\work4.jpg" alt="work1"/>
+                    <p id="overlay2" class="text">Black Studio</p>
+                </div>
+                <div class="col-md-3 portolio_image" id="work4">
+                    <img src="assets\portfolio\work3.jpg" alt="workk4"/>
+                    <p id="overlay4" class="text">Ontario Security</p>
+                </div>
+        <!-- <div class="col-md-3 portolio_image" id="work1">
+            <img src="assets\portfolio\work3.jpg" alt="work2"/>
+            <p id="overlay10" class="text">Ontario Security</p>
+        </div> -->
+        <div class="col-md-3 portolio_image" id="work3">
             <img src="assets\portfolio\work2.jpg" alt="work3"/>
             <p id="overlay3" class="text">Pyramids</p>
     </div>
-    <div class="col-md-3" id="work4">
+    <div class="col-md-3 portolio_image" id="work4">
         <img src="assets\portfolio\work1.jpg" alt="workk4"/>
         <p id="overlay4" class="text">Jim Carry</p>
     </div>
-    <div class="col-md-3" id="work5">
+    <div class="col-md-3 portolio_image" id="work5">
         <img src="assets\portfolio\work5.jpg" alt="work5"/>
-        <p id="overlay5" class="text">Have A Nice Day</p>
+        <p id="overlay5" class="text">Have a nice day</p>
     </div>
-    <div class="col-md-3" id="work6">
+   
+    <div class="col-md-3 portolio_image" id="work6">
         <img src="assets\portfolio\work6.jpg" alt="work6"/>
         <p id="overlay6" class="text">Calculator</p>
     </div>
-    <div class="col-md-3" id="work7">
+    <div class="col-md-3 portolio_image" id="work7">
         <img src="assets\portfolio\work7.jpg" alt="work7"/>
         <p id="overlay7" class="text">Burned</p>
     </div>
-    <div class="col-md-3" id="work8">
+    <div class="col-md-3 portolio_image" id="work8">
         <img src="assets\portfolio\work8.jpg" alt="work8"/>
         <p id="overlay8" class="text">Giraffe Restaurant</p>
     </div>
  </div>
 </div>
+<div class="container-fluid contact">
+      <h2>CONTACT US</h2>
+
+      <form
+        id="form"
+        action="https://gmail.us3.list-manage.com/subscribe/post"
+        method="POST"
+      >
+        <input type="hidden" name="u" value="e71bed4d6ae5a7c984dfe28b0" />
+        <input type="hidden" name="id" value="dbf7e27685" />
+        <div class="form-group form-inline">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Name...."
+            name="MERGE1"
+            id="MERGE1"
+            size="25"
+            value=""
+          />
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Email...."
+            autocapitalize="off"
+            autocorrect="off"
+            name="MERGE0"
+            id="MERGE0"
+            size="25"
+            value=""
+          />
+        </div>
+        <div class="form-group">
+          <textarea
+            class="form-control"
+            rows="8"
+            id="comment"
+            placeholder="Your message here...."
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary col-md-1">Submit</button>
+      </form>
+    </div>
+    <footer>
+        <img src="assets/social_icons/twitter.png" alt="twitter" />
+        <img src="assets/social_icons/dribble.png" alt="dribble" />
+        <img src="assets/social_icons/facebook.png" alt="facebook" />
+        <img src="assets/social_icons/g_plus.png" alt="g_plus" />
+        <img src="assets/social_icons/skype.png" alt="skype" />
+        <img src="assetssocial_icons/stumble_upon.png" alt="stumble_upon" />
+        <img src="assets/social_icons/behance.png" alt="behance" />
+        <img src="assets/social_icons/pinterest.png" alt="pinterest" />
+        <img src="assets/social_icons/flickr.png" alt="flickr" />
+        <!-- <img src="images/social_icons/you_tube.png" alt=""> -->
+        <p>DELANI STUDIO</p>
+        <p>2019</p>
+      </footer>
+      <script
+        type="text/javascript"
+        src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+        data-dojo-config="usePlainJson: true, isDebug: false"
+      ></script>
+      <script type="text/javascript">
+        window.dojoRequire(["mojo/signup-forms/Loader"], function (L) {
+          L.start({
+            baseUrl: "mc.us3.list-manage.com",
+            uuid: "e71bed4d6ae5a7c984dfe28b0",
+            lid: "dbf7e27685",
+            uniqueMethods: true,
+          });
+        });
+      </script>
+      <script src="js\jquery-3.6.1.js"></script>
+      <script src="js\script.js"></script>
+    </body>
+  </html>
 </body>
 </html>
