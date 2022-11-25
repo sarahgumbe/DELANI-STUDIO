@@ -17,17 +17,20 @@ code . or atom . depending on the text editor of your choise.
 The site is not responsive enough for some devices.
 mail chimp API does not function properly.
 ## Technologies Used
-#HTML5,
-#CSS,
-#Bootstrap,
-#jQuery,
-#markdown,
-#BDD,
-##Behaviour	Input	Output
-##Enter your name	Sarah Gumbe	
-#Enter your Email Address	gumbe12@gmail.com	
-#Enter your message or comment	I would love to work with you	
-#Press Submit		Pop up "Sarah Gumbe,we have received your message. Thank you for reaching out to us
+HTML5,
+CSS,
+Bootstrap,
+jQuery,
+
+Behaviour	Input	Output\
+
+Enter your name	Sarah Gumbe	
+
+Enter your Email Address	gumbe12@gmail.com	
+
+Enter your message or comment	I would love to work with you
+
+Press Submit		Pop up "Sarah Gumbe,we have received your message. Thank you for reaching out to us
 ## Support and contact details
 If you have any question or contributions, please email me at [gumbe12@gmail.com]
 
