@@ -2,6 +2,9 @@
 This is a repository for Delani studio which is a fiction studio.
 #### Author
 #### Sarah Gumbe (25.11.2022)
+
+https://sarahgumbe.github.io/DELANI-STUDIO/
+
 ## Description 
 This project is a web application for Delani studio that shows details about the services it offers, has information about the studio, a portfolio section and a form that enables users to send their messages and concern to Delani studios.
 
