@@ -47,4 +47,8 @@ MIT License:
 Copyright (c) 2022 Sarah Gumbe
 
 Line 49 is to learn on tracking code changes
+<<<<<<< HEAD
 Line 50 is to learn on tracking code changes
+=======
+Line 50 is to learn on merging conflicts
+>>>>>>> newfeature-branch
